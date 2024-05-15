@@ -38,7 +38,7 @@ final class AssistantResponse implements ResponseContract, ResponseHasMetaInform
         public string $model,
         public ?string $instructions,
         public array $tools,
-        public array $fileIds,
+        public ?array $fileIds,
         public array $metadata,
         private readonly MetaInformation $meta,
     ) {

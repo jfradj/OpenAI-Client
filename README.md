@@ -942,7 +942,7 @@ $response->toArray(); // ['created' => 1589478378, data => ['url' => 'https://oa
 
 > **Note:** If you are creating the client manually from the factory. Make sure you provide the necessary header:
 > ```php
-> $factory->withHttpHeader('OpenAI-Beta', 'assistants=v1')
+> $factory->withHttpHeader('OpenAI-Beta', 'assistants=v2')
 > ```
 
 #### `create`

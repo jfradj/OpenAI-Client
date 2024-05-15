@@ -46,7 +46,7 @@ final class ThreadRunResponse implements ResponseContract, ResponseHasMetaInform
         public string $model,
         public ?string $instructions,
         public array $tools,
-        public array $fileIds,
+        public ?array $fileIds,
         public array $metadata,
         public ?ThreadRunResponseUsage $usage,
         private readonly MetaInformation $meta,
